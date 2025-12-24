@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
+import java.util.Random;
 
-public class MazeGenerator {
+public interface MazeGenerator {
+    Maze generate(int rows, int cols, Random rnd);
 }

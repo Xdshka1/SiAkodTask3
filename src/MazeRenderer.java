@@ -1,4 +1,4 @@
-public final class AsciiMazeRenderer {
+public final class MazeRenderer {
     public String render(Maze maze) {
         int rows = maze.rows();
         int cols = maze.cols();
